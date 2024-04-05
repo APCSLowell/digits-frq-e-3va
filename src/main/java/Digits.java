@@ -11,7 +11,7 @@ public class Digits
 		for(int i = 0; i < digitListS.length()-1; i++) {
 			digitList.add(Integer.parseInt(digitListS.substring(i, i+1)));
 		}
-		return digitList;
+		//return digitList;
 	}
 
 	public boolean isStrictlyIncreasing()
