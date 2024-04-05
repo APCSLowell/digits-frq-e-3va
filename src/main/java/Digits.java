@@ -9,7 +9,7 @@ public class Digits
 	{ /* to be implemented in part (a) */ 
 		String digitListS = Integer.toString(num);
 		for(int i = 0; i < digitListS.length()-1; i++) {
-			digitList.add(Integer.parseInt(digitListS.substring(i, i+1));
+			digitList.add(Integer.parseInt(digitListS.substring(i, i+1)));
 		}
 		return digitList;
 	}
