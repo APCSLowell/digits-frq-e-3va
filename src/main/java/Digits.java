@@ -7,13 +7,22 @@ public class Digits
 
 	public Digits(int num)
 	{ /* to be implemented in part (a) */ 
-	    
+		String digitListS = Integer.toString(num);
+		for(int i = 0; i < digitListS.length()-1; i++) {
+			digitList.add(Integer.parseInt(digitListS.substring(i, i+1);
+		}
+		return digitList;
 	}
 
 	public boolean isStrictlyIncreasing()
 	{ /* to be implemented in part (b) */
-		
-
+		boolean val = true;
+		for(int i = 0; i < digitList.length()-1; i++) {
+			if(digitList[i] >= digitList[i+1])
+				val = false;
+			else val = true;
+		}
+		return val;
 	}
 	
 	public String toString()
