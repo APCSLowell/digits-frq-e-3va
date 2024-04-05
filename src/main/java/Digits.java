@@ -18,7 +18,7 @@ public class Digits
 	{ /* to be implemented in part (b) */
 		boolean val = true;
 		for(int i = 0; i < digitList.length()-1; i++) {
-			if(digitList[i] >= digitList[i+1])
+			if(digitList.get(i) >= digitList.get(i+1))
 				val = false;
 			else val = true;
 		}
